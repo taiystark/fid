@@ -1,0 +1,91 @@
+body{
+    margin: 0 10%;
+    font-family: sans-serif;
+    background-color:#faf2e4;
+}
+.not_index{
+    background:#faf2e4 url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+  @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9zoKmM4MwWJU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    font-family: "Lobster";
+    letter-spacing: .05em;
+    font-size: 2.5em;
+    color: olive;
+    text-shadow: .05em .05em .1em lightslategray ;
+}
+
+h2 {
+    color: #d1633c;
+    font-size: 1.5em;
+}
+h3{
+    color: #e89171;
+}
+footer{
+  border-top:1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: .75em;
+}
+nav li a{
+    text-decoration: none;
+    color: #F7941E;
+    font-size: 1.5em;
+}
+a:hover{
+    color:#57b1dc;
+}
+a{
+    color: #F7941E;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+fieldset>legend{
+    color: #F7941E;
+}
+fieldset{
+    border:1px solid #57b1dc;
+}
+#pizza{
+    height:150px;
+    width:auto;
+}
+dt{
+    font-weight: bold;
+    color: sienna;
+}
+strong{
+    font-style: italic;
+}
+dt strong{
+    color: tomato;
+}
+#info ul li{
+    display: inline-block;
+    list-style: none;
+    padding: .75em;
+}
